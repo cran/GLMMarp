@@ -1,0 +1,17 @@
+import(MCMCpack)
+import(mvtnorm)
+import(lattice)
+import(msm)
+import(MASS)
+import(Matrix)
+import(accuracy)
+import(kinship)
+
+export(
+       GLMMARp.Binary,
+       random.time,
+       random.unit,
+       Prediction.Binary,
+       Marg.Like.Binary
+       )
+
